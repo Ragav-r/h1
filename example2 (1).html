@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<style>
+  .black-line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-container img {
+    margin-right: 10px; /* Add some spacing between image and text */
+  }
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .form-group label {
+    width: 200px; /* Adjust the width as needed */
+    margin-right: 10px; /* Add some spacing between label and input */
+  }
+
+  .form-group input {
+    flex: 1; /* Fill remaining space */
+  }
+  html {
+    background-color: #c5bfbf87; /* Light grey background color */
+  }
+  .side-image {
+    float: right; /* Align image to the right */
+  }
+  body {
+    font-weight: bold; /* Set font weight to bold for all text */
+  }
+  input[type="submit"] {
+    background-color: #070807; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border: none; /* Remove border */
+    border-radius: 200px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    text-transform: uppercase;
+    position: center; /* Convert text to uppercase */
+  }
+
+  /* Hover effect for submit button */
+  input[type="submit"]:hover {
+    background-color: #141814; /* Darker green backg+round color */
+  }
+  </style>
+</head>
+<body>
+
+  <div class="header-container">
+    <img src="kongu.jpeg" alt="Description of the image" width="200" height="100">
+    <h1>KONGU ENGINEERING COLLEGE</h1>
+  </div>
+  
+
+  <div class="black-line"></div>
+<h2>Hackathon: Building Smart Cities</h2>
+<P>Hackathons focused on building smart cities bring together individuals from diverse backgrounds, including developers, engineers, designers, and policymakers, to collaborate on innovative solutions to urban challenges. These events harness the power of technology, data, and creativity to address pressing issues such as transportation, energy, sustainability, and public services within urban environments. Participants work tirelessly over a condensed timeframe, often just a few days, to ideate, prototype, and develop solutions that leverage emerging technologies like IoT, AI, and data analytics. The hackathon format fosters rapid experimentation, iteration, and teamwork, encouraging participants to think outside the box and push the boundaries of conventional problem-solving approaches. Through collaboration and interdisciplinary exchange, hackathons dedicated to building smart cities empower participants to contribute to the creation of more efficient, inclusive, and sustainable urban spaces that improve the quality of life for residents and foster economic growth.</P>
+<form id="registrationForm" action="login1.php">
+  <label for="teamName">TEAM NAME:</label><br>
+  <input type="text" id="teamName" name="teamName" required><br>
+  
+  <label for="department">DEPARTMENT:</label><br>
+  <input type="text" id="department" name="department" required><br>
+  
+  <label for="teamLeaderName">TEAM LEADER NAME:</label><br>
+  <input type="text" id="teamLeaderName" name="teamLeaderName" required><br>
+  
+  <label for="teamLeaderEmail">TEAM LEADER ROLL NUMBER:</label><br>
+  <input type="email" id="teamLeaderEmail" name="teamLeaderroll" required><br>
+  
+  <label for="teamLeaderEmail">TEAM LEADER EMAIL:</label><br>
+  <input type="email" id="teamLeaderEmail" name="teamLeaderEmail" required><br>
+
+  <label for="teamLeaderMobile">TEAM LEADER MOBILE NUMBER:</label><br>
+  <input type="tel" id="teamLeaderMobile" name="teamLeaderMobile" required><br>
+  
+
+  <label for="member2Name">TEAM MEMBER 2:</label><br>
+  <input type="text" id="member2Name" name="member2Name" required=""><br>
+  
+  <label for="member3Name">TEAM MEMBER 2 ROLL NUMBER:</label><br>
+  <input type="text" id="member3Name" name="member2roll" required=""><br>
+  
+  <label for="member3Name">TEAM MEMBER 2 EMAIL:</label><br>
+  <input type="text" id="member3Name" name="member2email" required=""><br>
+
+  <label for="member3Name">TEAM MEMBER 2 PHONE NUMBER:</label><br>
+  <input type="text" id="member3Name" name="member2ph" required=""><br> 
+   
+  <label for="member2Name">TEAM MEMBER 3:</label><br>
+  <input type="text" id="member2Name" name="member3Name" required=""><br>
+  
+  <label for="member3Name">TEAM MEMBER 3 ROLL NUMBER:</label><br>
+  <input type="text" id="member3Name" name="member3roll" required=""><br>
+  
+  <label for="member3Name">TEAM MEMBER 3 EMAIL:</label><br>
+  <input type="text" id="member3Name" name="member3email"required=""><br>
+
+  <label for="member3Name">TEAM MEMBER 3 PHONE NUMBER:</label><br>
+  <input type="text" id="member3Name" name="member3ph" required=""><br> 
+  
+
+  <a href="#"><input type="submit" value="Submit"></a>
+</form>
+
+<p id="whatsappLink"></p>
+
+</body>
+</html>
